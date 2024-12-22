@@ -1,0 +1,63 @@
+{
+  "Home Page": {
+    "buy_a_home": "Buy a Home"
+  },
+  "Search Home Page": {
+    "search_for_a_home": "Search for a Home",
+    "apply": "Apply",
+    "all": "All",
+    "apartment": "Apartment"
+  },
+  "Filter Form": {
+    "btn_clear": "CLEAR"
+  },
+  "Search Results Page": {
+    "search_results": "Search"
+  },
+  "Home Grant Page": {
+    "apply": "Apply",
+    "grant": "Request for House Purchase Loan"
+  },
+  "Property Details Page": {
+    "price_txt": "AED",
+    "studio": "STUDIO",
+    "property": "Property Details"
+  },
+  "Base Page Journey": {
+    "min": "MIN",
+    "max": "MAX",
+    "home_breadcrumb": "Buy a Home",
+    "go_back_breadcrumb": "Go back"
+  },
+  "Base Page Home From List": {
+    "unit": "Unit"
+  },
+  "Base Page Search And Filter": {
+    "all": "All"
+  },
+  "Get Utilities Page": {
+    "get_utilities": "Get Utilities"
+  },
+  "Get Insurance Page": {
+    "get_insurance": "Get Insurance"
+  },
+  "Confirmed Page": {
+    "confirmed_banner": "Saved Properties"
+  },
+  "Financing Page": {
+    "financing_banner": "Financing"
+  },
+  "Deed Transfer Property Registration Page": {
+    "registration_ok": "OK",
+    "registration_in_progress": "in Progress"
+  },
+  "Deed Transfer Page": {
+    "deed_transfer_banner": "Deed Transfer"
+  },
+  "Bank Loan Page": {
+    "bank_loan_banner": "Calculate Loan"
+  },
+  "Apply Loan Page": {
+    "apply_loan_banner": "Calculate Loan"
+  }
+}

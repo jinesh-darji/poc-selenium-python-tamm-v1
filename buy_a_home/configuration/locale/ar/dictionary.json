@@ -1,0 +1,63 @@
+{
+  "Home Page": {
+    "buy_a_home": "شراء منزل"
+  },
+  "Search Home Page": {
+    "search_for_a_home": "ابحث عن منزل",
+    "apply": "ابحث",
+    "all": "الجميع",
+    "apartment": "شقة"
+  },
+  "Filter Form": {
+    "btn_clear": "مسح"
+  },
+  "Search Results Page": {
+    "search_results": "نتائج البحث"
+  },
+  "Home Grant Page": {
+    "apply": "ابحث",
+    "grant": "طلب قــرض شـــراء مسكــن جاهـــز"
+  },
+  "Property Details Page": {
+    "price_txt": "درهم",
+    "studio": "ستوديو",
+    "property": "تفاصيل العقار"
+  },
+  "Base Page Journey": {
+    "min": "أدنى",
+    "max": "أقصى",
+    "home_breadcrumb": "شراء منزل",
+    "go_back_breadcrumb": "ارجع"
+  },
+  "Base Page Home From List": {
+    "unit": "وحدات"
+  },
+  "Base Page Search And Filter": {
+    "all": "الجميع"
+  },
+  "Get Utilities Page": {
+    "get_utilities": "توصيل خدمات المرافق"
+  },
+  "Get Insurance Page": {
+    "get_insurance": "الحصول على التأمين"
+  },
+    "Confirmed Page": {
+    "confirmed_banner": "عقارات محفوظة"
+  },
+  "Financing Page": {
+    "financing_banner": "التمويل"
+  },
+  "Deed Transfer Property Registration Page": {
+    "registration_ok": "حسنًا",
+    "registration_in_progress": "فيد الإنجاز"
+  },
+  "Deed Transfer Page": {
+    "deed_transfer_banner": "نقل الملكية"
+  },
+  "Bank Loan Page": {
+    "bank_loan_banner": "احسب قيمة القرض"
+  },
+  "Apply Loan Page": {
+    "apply_loan_banner": "احسب قيمة القرض"
+  }
+}

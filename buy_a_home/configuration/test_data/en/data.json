@@ -1,0 +1,22 @@
+{
+   "Navigation Items": {
+      "select home": "Select Home",
+      "get financing": "Get Financing",
+      "deed transfer": "Deed Transfer",
+      "get utilities": "Get Utilities",
+      "get insurance": "Get Insurance",
+      "get movers": "Get Movers"
+   },
+   "Monthly Payment Calculation": {
+      "step for slider": 15,
+      "down payment value": 51000,
+      "min down payment value": 10000,
+      "interest rate": 5.0
+   },
+   "Qty of items": {
+      "qty of properties": 6,
+      "qty of packages": 6,
+      "qty of services": 2,
+      "qty of amenities": 2
+   }
+}

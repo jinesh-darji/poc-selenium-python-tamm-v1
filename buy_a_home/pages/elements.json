@@ -1,0 +1,1382 @@
+{
+  "Home Page": {
+    "lbl_home_page": {
+      "name": "Home Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Home Page.buy_a_home",
+      "search_cond": "xpath"
+    },
+    "btn_navigation_panels": {
+      "name": "Navigation panels buttons {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'step-item')]//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "btn_buy_home": {
+      "name": "Buy Home Button",
+      "locator": "//button[contains(@class, '__select-home')][not (contains(@class, 'grant'))]",
+      "search_cond": "xpath"
+    },
+    "btn_apply_for_ready_home_grant": {
+      "name": "Apply For Ready Home Grant Button",
+      "locator": "//div[contains(@class, 'modal')]//button[contains(@class, 'home-grant')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Select Home Page": {
+    "lbl_select_home_page": {
+      "name": "Select Home Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'select-home')]",
+      "search_cond": "xpath"
+    },
+    "btn_search_home": {
+      "name": "Search home button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'search-home')]",
+      "search_cond": "xpath"
+    },
+    "btn_saved_properties": {
+      "name": "Saved properties page",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'saved-homes')]",
+      "search_cond": "xpath"
+    },
+    "btn_apply_grant": {
+      "name": "Apply button on Home grant form",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'home-grant')]//button[contains(@class, 'card-button')]",
+      "search_cond": "xpath"
+    },
+    "lbl_home_grant": {
+      "name": "Home grant label",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'home-grant')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Search Home Page": {
+    "lbl_search_home_page": {
+      "name": "Search Home Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Search Home Page.search_for_a_home",
+      "search_cond": "xpath"
+    },
+    "btn_apply": {
+      "name": "Apply Button",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'page-container')]//button[contains(@class, 'apply')]",
+      "search_cond": "xpath"
+    },
+    "btn_apply_not_available": {
+      "name": "Apply Button isn't available",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'applyFilters')]",
+      "search_cond": "xpath"
+    },
+    "chbx_apartment_quick_search": {
+      "name": "Checkbox Apartment on Quick Search Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_Apartment')]//label[contains(@class, 'Apartment')]//span[not (contains(@class, 'ant-checkbox-checked'))]",
+      "search_cond": "xpath"
+    },
+    "chbx_villa_quick_search": {
+      "name": "Checkbox Villa on Quick Search Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_Villa')]//label[contains(@class, 'Villa')]//span[not (contains(@class, 'ant-checkbox-checked'))]",
+      "search_cond": "xpath"
+    },
+    "chbx_apartment_quick_search_disable": {
+      "name": "Checkbox Apartment on Search page (disable)",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_Apartment')]//label[contains(@class, 'Apartment')]//span[contains(@class, 'ant-checkbox-checked')]",
+      "search_cond": "xpath"
+    },
+    "chbx_villa_quick_search_disable": {
+      "name": "Checkbox Villa on Search page (disable)",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_Villa')]//label[contains(@class, 'Villa')]//span[contains(@class, 'ant-checkbox-checked')]",
+      "search_cond": "xpath"
+    },
+    "area_dropdown_quick_search": {
+      "name": "Dropdown Area on Quick Search Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'select-selection_')]",
+      "search_cond": "xpath"
+    },
+    "area_list_dropdown_quick_search": {
+      "name": "Area list from dropdown Area on Quick Search Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'ant-select-dropdown')]//li[not(text()='{}')]",
+      "locale_path": "Search Home Page.all",
+      "search_cond": "xpath"
+    },
+    "area_arrow_dropdown_quick_search": {
+      "name": "Area arrow from dropdown Area on Quick Search Page",
+      "comment": "add_comment",
+      "locator": "//span[contains(@class, 'select-arrow')]",
+      "search_cond": "xpath"
+    },
+    "area_input_dropdown_quick_search": {
+      "name": "Area input from dropdown Area on Quick Search Page",
+      "comment": "add_comment",
+      "locator": "//input[contains(@class, 'ant-select-search__field')]",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_list_dropdown": {
+      "name": "Min bedrooms list from dropdown",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'minBedrooms')]//li/div",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_list_dropdown": {
+      "name": "Max bedrooms list from dropdown",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'maxBedrooms')]//li/div",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_item_dropdown": {
+      "name": "Min bedrooms list from dropdown {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'minBedrooms')]//li//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_item_dropdown": {
+      "name": "Min bedrooms list from dropdown {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'maxBedrooms')]//li//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_dropdown": {
+      "name": "Dropdown min Bedrooms",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'minBedrooms')]",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_dropdown": {
+      "name": "Dropdown max Bedrooms",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'maxBedrooms')]",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_arrow_dropdown": {
+      "name": "Min Bedrooms arrow from dropdown",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'minBedrooms')]//i",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_arrow_dropdown": {
+      "name": "Max Bedrooms arrow from dropdown",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'maxBedrooms')]//i",
+      "search_cond": "xpath"
+    },
+    "lbl_saved_properties": {
+      "name": "Saved properties label",
+      "locator": "//div[contains(@class, 'saved-homes-card')]//div[contains(@class, 'button')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Filter Form": {
+    "lbl_filter_form": {
+      "name": "Filter Form",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'filter-modal')]",
+      "search_cond": "xpath"
+    },
+    "btn_apply_filter": {
+      "name": "Apply button Filter",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'filtersApplyButtonModal')]",
+      "search_cond": "xpath"
+    },
+    "btn_clear": {
+      "name": "Clear button Filter",
+      "locator": "//button[contains(@class, 'default-appearance')]//div[contains(text(), '{}')]",
+      "locale_path": "Filter Form.btn_clear",
+      "search_cond": "xpath"
+    },
+    "btn_apply_filter_not_available": {
+      "name": "Apply button ins't available on Filter form",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'ApplyButtonModal')]",
+      "search_cond": "xpath"
+    },
+    "checkbox_apartment_filter_enable": {
+      "name": "Checkbox Apartment on Filter Form (enable)",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_modal_Apartment')]//label[contains(@class, 'Apartment')]//span[not (contains(@class, 'ant-checkbox-checked'))]",
+      "search_cond": "xpath"
+    },
+    "checkbox_villa_filter_enable": {
+      "name": "Checkbox Villa on Filter Form (enable)",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_modal_Villa')]//label[contains(@class, 'Villa')]//span[not (contains(@class, 'ant-checkbox-checked'))]",
+      "search_cond": "xpath"
+    },
+    "checkbox_apartment_filter_disable": {
+      "name": "Checkbox Apartment on Filter Form (disable)",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_modal_Apartment')]//label[contains(@class, 'Apartment')]//span[contains(@class, 'ant-checkbox-checked')]",
+      "search_cond": "xpath"
+    },
+    "checkbox_villa_filter_disable": {
+      "name": "Checkbox Villa on Filter Form (disable)",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_modal_Villa')]//label[contains(@class, 'Villa')]//span[contains(@class, 'ant-checkbox-checked')]",
+      "search_cond": "xpath"
+    },
+    "checkbox_list_of_amenities": {
+      "name": "List of amenities Checkboxes",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'modal_amenities')]",
+      "search_cond": "xpath"
+    },
+    "checkbox_of_amenity": {
+      "name": "Checkbox of amenity {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox_modal')]//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_filter_pop_up": {
+      "name": "X button for filter form",
+      "comment": "add_comment",
+      "locator": "//i[contains(@class, 'icon-close')]",
+      "search_cond": "xpath"
+    },
+    "slider_range_price": {
+      "name": "Slider of Range Price",
+      "comment": "add_comment",
+      "locator": "",
+      "search_cond": "xpath"
+    },
+    "lnk_show_amenities": {
+      "name": "Show amenities link",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'amenitiesShowAll')]",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_list_dropdown_filter": {
+      "name": "Min Bedrooms dropdown filter",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMinBedrooms')]",
+      "search_cond": "xpath"
+    },
+    "minBathrooms_dropdown_filter": {
+      "name": "Min Bathrooms dropdown filter",
+      "locator": "//div[contains(@class, 'popUpMinBathrooms')]",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_list_dropdown_filter": {
+      "name": "Max Bedrooms dropdown filter",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMaxBedrooms')]",
+      "search_cond": "xpath"
+    },
+    "maxBathrooms_dropdown_filter": {
+      "name": "Max Bathrooms dropdown filter",
+      "locator": "//div[contains(@class, 'popUpMaxBathrooms')]",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_arrow_dropdown_filter": {
+      "name": "Min Bedrooms dropdown arrow filter",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMinBedrooms')]//i",
+      "search_cond": "xpath"
+    },
+    "minBathrooms_arrow_dropdown_filter": {
+      "name": "Min Bathrooms dropdown arrow filter",
+      "locator": "//div[contains(@class, 'popUpMinBathrooms')]//i",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_arrow_dropdown_filter": {
+      "name": "Max Bedrooms dropdown arrow filter",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMaxBedrooms')]//i",
+      "search_cond": "xpath"
+    },
+    "maxBathrooms_arrow_dropdown_filter": {
+      "name": "Max Bathrooms dropdown arrow filter",
+      "locator": "//div[contains(@class, 'popUpMaxBathrooms')]//i",
+      "search_cond": "xpath"
+    },
+    "lbl_minBedrooms_item_dropdown_filter": {
+      "name": "Min Bedrooms dropdown item filter {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMinBedrooms')]//li//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_minBathrooms_item_dropdown_filter": {
+      "name": "Min Bathrooms dropdown item filter {}",
+      "locator": "//div[contains(@class, 'popUpMinBathrooms')]//li//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_maxBedrooms_item_dropdown_filter": {
+      "name": "Max Bedrooms dropdown item filter {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMaxBedrooms')]//li//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_maxBathrooms_item_dropdown_filter": {
+      "name": "Max Bathrooms dropdown item filter {}",
+      "locator": "//div[contains(@class, 'popUpMaxBathrooms')]//li//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "minBedrooms_list_dropdown_form": {
+      "name": "Min Bedrooms dropdown list filter",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMinBedrooms')]//li/div",
+      "search_cond": "xpath"
+    },
+    "minBathrooms_list_dropdown_form": {
+      "name": "Min Bathrooms dropdown list filter",
+      "locator": "//div[contains(@class, 'popUpMinBathrooms')]//li/div",
+      "search_cond": "xpath"
+    },
+    "maxBedrooms_list_dropdown_form": {
+      "name": "Max Bedrooms dropdown list filter",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'popUpMaxBedrooms')]//li/div",
+      "search_cond": "xpath"
+    },
+    "maxBathrooms_list_dropdown_form": {
+      "name": "Max Bathrooms dropdown list filter",
+      "locator": "//div[contains(@class, 'popUpMaxBathrooms')]//li/div",
+      "search_cond": "xpath"
+    }
+  },
+  "Search Results Page": {
+    "lbl_search_results_page": {
+      "name": "Search Results Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Search Results Page.search_results",
+      "search_cond": "xpath"
+    },
+    "lbl_star_results": {
+      "name": "Star Label",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'save')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Home Grant Page": {
+    "lbl_home_grant_page": {
+      "name": "Home Grant Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Home Grant Page.grant",
+      "search_cond": "xpath"
+    },
+    "btn_apply_via_adha": {
+      "name": "Apply Via Adha Button",
+      "locator": "//button[contains(@class, '__apply-grant')]",
+      "search_cond": "xpath"
+    },
+    "lnk_general_info": {
+      "name": "General Information Link",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'general')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_general_info": {
+      "name": "Button for closing General Information Link",
+      "comment": "add_comment",
+      "locator": "//button[contains(@aria-label, 'Close')]//span[contains(@class, 'close-x')]",
+      "search_cond": "xpath"
+    },
+    "lbl_general_info_pop_up": {
+      "name": "Pop up General Information",
+      "comment": "add_comment",
+      "locator": "//div[not(contains(@class, 'mask-hidden'))]//span[(contains(@class, 'close-x'))]",
+      "search_cond": "xpath"
+    }
+  },
+  "Property Details Page": {
+    "lbl_property_details": {
+      "name": "Property Details Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Property Details Page.property",
+      "search_cond": "xpath"
+    },
+    "lbl_price": {
+      "name": "Price Of Property {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-details__property-price')][contains(., '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_price_value": {
+      "name": "Price Of Property",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-details__property-price')]",
+      "search_cond": "xpath"
+    },
+    "lbl_bedrooms": {
+      "name": "Bedrooms Quantity",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'value rooms')]",
+      "search_cond": "xpath"
+    },
+    "lbl_bathrooms": {
+      "name": "Bathrooms Quantity",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'bathrooms')]",
+      "search_cond": "xpath"
+    },
+    "lbl_size": {
+      "name": "Size data",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-size')]",
+      "search_cond": "xpath"
+    },
+    "lbl_property_type": {
+      "name": "Property type of home",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-type')]",
+      "search_cond": "xpath"
+    },
+    "lbl_area": {
+      "name": "Area data {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-destination')][contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_island": {
+      "name": "Island data {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-title')][contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "btn_financing_option": {
+      "name": "Check financing option Button",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'buttons')]//button[contains(@class, 'booked-button')]",
+      "search_cond": "xpath"
+    },
+    "lbl_amenities_details": {
+      "name": "List of amenities",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'value amenities')]",
+      "search_cond": "xpath"
+    },
+    "chbx_list_of_services": {
+      "name": "List of services",
+      "locator": "//div[contains(@class, 'checkbox-wrapper')]//div[not(contains(text(), 'Select All'))]",
+      "search_cond": "xpath"
+    },
+    "chbx_of_service": {
+      "name": "Checkbox of service {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'checkbox-wrapper')]//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "btn_services_close": {
+      "name": "Services close button",
+      "comment": "add_comment",
+      "locator": "//span[contains(@class, 'close-x')]",
+      "search_cond": "xpath"
+    },
+    "btn_go_to_saved_properties": {
+      "name": "Go to saved properties button",
+      "comment": "add_comment",
+      "locator": "",
+      "search_cond": "xpath"
+    },
+    "lbl_selected_star_property": {
+      "name": "Selected Star label {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-details')][.//div[contains(@class, 'price number') and (contains(., '{}'))]]//div[contains(@class, 'save')]//img[not(contains(@src, 'empty'))]",
+      "search_cond": "xpath"
+    },
+    "btn_services": {
+      "name": "Services button",
+      "locator": "//button[contains(@class, 'map-container')]",
+      "search_cond": "xpath"
+    },
+    "chbx_services_all": {
+      "name": "Services All checkbox",
+      "locator": "//input[contains(@id, 'Select')]",
+      "search_cond": "xpath"
+    },
+    "lbl_interest_rate": {
+      "name": "Interest Rate of home",
+      "comment": "add_comment",
+      "locator": "//input[contains(@aria-label, 'interest-rate')]",
+      "search_cond": "xpath"
+    },
+    "lbl_services": {
+      "name": "Services pop-up",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'ant-modal-title')]",
+      "search_cond": "xpath"
+    }
+  },
+  "My Appointments Page": {
+    "lbl_my_appointments": {
+      "name": "My Appointments Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'appointments')]",
+      "search_cond": "xpath"
+    }
+  },
+  "My Appointments Form": {
+    "lbl_my_appointments_form": {
+      "name": "My Appointments Form",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-modal-description')]",
+      "search_cond": "xpath"
+    },
+    "btn_yes": {
+      "name": "Yes button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'modal-viewing-yes')]",
+      "search_cond": "xpath"
+    },
+    "btn_no": {
+      "name": "No button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'modal-viewing-no')]",
+      "search_cond": "xpath"
+    },
+    "btn_confirm_home_selection_and_continue_to_purchase": {
+      "name": "Confirm home selection and continue to purchase button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'yes-modal-button1')]",
+      "search_cond": "xpath"
+    },
+    "btn_yes_search_for_another_home": {
+      "name": "Yes Search for another home button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'yes-modal-button2')]",
+      "search_cond": "xpath"
+    },
+    "btn_reschedule_appointment": {
+      "name": "Reschedule appointment button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'no-modal-button1')]",
+      "search_cond": "xpath"
+    },
+    "btn_no_search_for_another_home": {
+      "name": "No Search for another home button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'no-modal-button2')]",
+      "search_cond": "xpath"
+    },
+    "btn_confirm_home_and_continue_to_purchase": {
+      "name": "Confirm home and continue to purchase button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'no-modal-button3')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Confirmed Page": {
+    "lbl_confirmed_page": {
+      "name": "Confirmed Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-hero-title') and contains(text(), '{}')]",
+      "locale_path": "Confirmed Page.confirmed_banner",
+      "search_cond": "xpath"
+    }
+  },
+  "Confirmed Form": {
+    "lbl_confirmed_form": {
+      "name": "Confirmed Form",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-modal-description')]",
+      "search_cond": "xpath"
+    },
+    "lnk_bank_loan": {
+      "name": "Bank Loan Link",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'button__financing')]",
+      "search_cond": "xpath"
+    },
+    "lnk_self_finance": {
+      "name": "Self-Finance Link",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'button__deed-transfer')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Journey": {
+    "lbl_next_page": {
+      "name": "Next page arrow",
+      "locator": "//div[contains(@class, 'page next')]",
+      "search_cond": "xpath"
+    },
+    "lbl_prev_page": {
+      "name": "Prev page arrow",
+      "locator": "//div[contains(@class, 'page prev')]",
+      "search_cond": "xpath"
+    },
+    "list_of_results_price_with_stars": {
+      "name": "List of results price with stars for homes",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles')][./div[contains(@class, 'save')]]//div[contains(@class, 'price number')][contains(., '')]",
+      "search_cond": "xpath"
+    },
+    "list_of_results_price_with_enabled_stars": {
+      "name": "List of results price with stars for homes",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles')][./div[contains(@class, 'save')]//img[contains(@src, 'heart-empty')]]//div[contains(@class, 'price number')][contains(., '')]",
+      "search_cond": "xpath"
+    },
+    "list_of_results_price_with_filled_stars": {
+      "name": "List of results price with stars for homes",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles')][./div[contains(@class, 'save')]//img[contains(@src, 'heart-filled')]]//div[contains(@class, 'price number')][contains(., '')]",
+      "search_cond": "xpath"
+    },
+    "list_of_results_price_with_filled_stars_without_specific_price": {
+      "name": "List of results price with stars for homes and without property with specific price {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles')][./div[contains(@class, 'save')]//img[contains(@src, 'heart-filled')]]//div[contains(@class, 'price number')][contains(., '') and not(contains(., '{}'))]",
+      "search_cond": "xpath"
+    },
+    "lbl_absent_property_details": {
+      "name": "Property Details is empty",
+      "comment": "add_comment",
+      "locator": "//h4[text()='0']",
+      "search_cond": "xpath"
+    },
+    "btn_yes_remove_save": {
+      "name": "Yes Remove saved properties",
+      "locator": "//button[contains(@class, 'button-success')]",
+      "search_cond": "xpath"
+    },
+    "btn_no_remove_save": {
+      "name": "No Remove saved properties",
+      "locator": "//button[contains(@class, 'button-cancel')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_save_remove_pop_up": {
+      "name": "Close button for remove save pop up",
+      "locator": "//div[contains(@class, 'qa-modal')]//button[contains(@aria-label, 'Close')]",
+      "search_cond": "xpath"
+    },
+    "btn_choose_home": {
+      "name": "Choose property button",
+      "locator": "//button[contains(@class, 're-select')]",
+      "search_cond": "xpath"
+    },
+    "list_properties_without_selected_heart": {
+      "name": "Properties without selected hearts",
+      "locator": "//div[contains(@class, 'property-tiles')][./div[contains(@class, 'save')]//img[contains(@src, 'empty')]]//div[contains(@class, 'price number')]",
+      "search_cond": "xpath"
+    },
+    "lbl_buah_breadcrumb": {
+      "name": "BUAH breadcrumb",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-breadcrumb')]//a[contains(text(), '{}')]",
+      "locale_path": "Base Page Journey.home_breadcrumb",
+      "search_cond": "xpath"
+    },
+    "lbl_go_back_breadcrumb": {
+      "name": "Go back breadcrumb",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'back-button')][contains(text(), '{}')]",
+      "locale_path": "Base Page Journey.go_back_breadcrumb",
+      "search_cond": "xpath"
+    },
+    "txb_tenure_years": {
+      "name": "Tenure Years for credit",
+      "comment": "add_comment",
+      "locator": "//span[contains(@class, 'qa-range-slider-value')]",
+      "search_cond": "xpath"
+    },
+    "lbl_monthly_payment_property": {
+      "name": "Monthly payment for credit",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'monthly-payment__value-row')]",
+      "search_cond": "xpath"
+    },
+    "lbl_monthly_payment_financing": {
+      "name": "Monthly payment for credit on Bank loan page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'monthly-payment number')]",
+      "search_cond": "xpath"
+    },
+    "btn_continue_without_selecting": {
+      "name": "Button Continue Without Selecting",
+      "locator": "//button[contains(@class, 'continue')]",
+      "search_cond": "xpath"
+    },
+    "lbl_chosen_home_price": {
+      "name": "Property price on chosen home form",
+      "locator": "//div[contains(@class, 'propertyInfo')]//div[contains(@class, 'property-price')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_login_popup": {
+      "name": "Close Button for Login popup",
+      "locator": "//div[./div[contains(@class, 'ant-modal-mask') and not(contains(@class, 'hidden'))]]//button[@class='ant-modal-close']//span[@class='ant-modal-close-x']/..",
+      "search_cond": "xpath"
+    },
+    "lbl_star_enabled": {
+      "name": "Star Label {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'page-container')][.//div[contains(@class, 'price number')][contains(., '{}')]]//div[contains(@class, 'save')]//img[contains(@src, 'heart-empty')]",
+      "search_cond": "xpath"
+    },
+    "lbl_star_enabled_without_price": {
+      "name": "Star Label without price",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'page-container')]//div[contains(@class, 'save')]//img[contains(@src, 'heart-empty')]",
+      "search_cond": "xpath"
+    },
+    "lbl_star_filled_without_price": {
+      "name": "Star Label Filled without price",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'page-container')]//div[contains(@class, 'save')]//img[contains(@src, 'heart-filled')]",
+      "search_cond": "xpath"
+    },
+    "btn_load_more": {
+      "name": "Load More button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'load-more')]",
+      "search_cond": "xpath"
+    },
+    "btn_check_bank_loan_options": {
+      "name": "Financing Button on property details page",
+      "locator": "//button[contains(@class, '__financing')]",
+      "search_cond": "xpath"
+    },
+    "btn_proceed_to_deed_transfer": {
+      "name": "Deed transfer Button on property details page",
+      "locator": "//button[contains(@class, '__deed-transfer')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Financing Details": {
+    "lbl_monthly_payment_specific_home": {
+      "name": "Monthly payment for credit for specific home {}",
+      "comment": "add_comment",
+      "locator": "//[./div[contains(@class, 'price number') and (contains(., '{}'))]]//div[contains(@class, 'number')][contains(.,'')]",
+      "search_cond": "xpath"
+    },
+    "lbl_home_loan_calculator": {
+      "name": "Home loan calculator",
+      "locator": "//div[contains(@class, 'collapse')]//i",
+      "search_cond": "xpath"
+    },
+    "sld_tenure": {
+      "name": "Tenure slider",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'default-appearance')]//div[contains(@class, 'qa-slider')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Header": {
+    "lbl_letters": {
+      "name": "Text",
+      "locator": "//body[contains(text(), '') and not(contains(text(), 'English') and (@data-gr-c-s-loaded = 'true')) or (contains(@class, 'modal'))]",
+      "search_cond": "xpath"
+    },
+    "lbl_arabic": {
+      "name": "Arabic label",
+      "locator": "//div[contains(@class, 'uil-header')]//button[contains(@class, 'language-switcher')]",
+      "search_cond": "xpath"
+    },
+    "lbl_tamm_icon": {
+      "name": "Tamm icon",
+      "comment": "add_comment",
+      "locator": "//a[contains(@class, 'header-logo')]",
+      "search_cond": "xpath"
+    },
+    "btn_smart_pass": {
+      "name": "Smart pass button",
+      "locator": "//div[contains(@class, 'smart-pass-button')]",
+      "search_cond": "xpath"
+    },
+    "btn_left_panel": {
+      "name": "Left panel button",
+      "locator": "//div[contains(@class, 'side-menu')]",
+      "search_cond": "xpath"
+    },
+    "btn_logout": {
+      "name": "Logout button",
+      "comment": "add_comment",
+      "locator": "//a[contains(@class, 'logout')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Home From List": {
+    "btn_select_for_home_with_price_and_star": {
+      "name": "Select button for home with specific price and selected star {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles')][./div[contains(@class, 'save')]//img[not(contains(@src, 'empty'))]][.//div[contains(@class, 'price number') and (contains(., '{}'))]]//button[contains(@class, 'action')]",
+      "search_cond": "xpath"
+    },
+    "btn_select_home_according_price": {
+      "name": "Button Select home according price {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'location-card')][.//div[contains(@class, 'price number') and (contains(., '{}'))]]//button[contains(@class, 'action')]",
+      "search_cond": "xpath"
+    },
+    "lbl_price_selected_home": {
+      "name": "Price for selected home {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'price number') and (contains(., '{}'))]",
+      "search_cond": "xpath"
+    },
+    "lbl_island_location": {
+      "name": "Island Location Text {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'location-card')][.//div[contains(@class, 'price')][contains(., '{}')]]//span[contains(@class, '__title')]",
+      "search_cond": "xpath"
+    },
+    "lbl_area_location": {
+      "name": "Area Location Text {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'location-card')][.//div[contains(@class, 'price')][contains(., '{}')]]//span[contains(@class, 'subtitle')]",
+      "search_cond": "xpath"
+    },
+    "lbl_star": {
+      "name": "Star Label {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles-col')][.//div[contains(@class, 'price number') and (contains(., '{}'))]]//div[contains(@class, 'save-button')]//img",
+      "search_cond": "xpath"
+    },
+    "lbl_absent_star": {
+      "name": "Star Label is absent {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'card-body')][.//div[contains(text(), '{}')]]//div[contains(@class, 'price number') and contains(., '{{}}')]",
+      "locale_path": "Base Page Home From List.unit",
+      "search_cond": "xpath"
+    },
+    "lbl_selected_star": {
+      "name": "Selected star Label {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-tiles')][.//div[contains(@class, 'price number') and (contains(., '{}'))]]//div[contains(@class, 'save')]//img[not(contains(@src, 'empty'))]",
+      "search_cond": "xpath"
+    },
+    "list_of_results_price": {
+      "name": "List of results price for homes",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'row-flex')]//div[contains(@class, 'price number')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Property Details": {
+    "lbl_area_data_field": {
+      "name": "Area data in the field",
+      "locator": "//div[contains(@class, 'selected-value')]",
+      "search_cond": "xpath"
+    },
+    "lbl_star_property": {
+      "name": "Star Label Property {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'page-container')][.//div[contains(@class, 'price number') and (contains(., '{}'))]]//div[contains(@class, 'save-button')]//img",
+      "search_cond": "xpath"
+    },
+    "lbl_profile": {
+      "name": "Profile Label",
+      "comment": "add_comment",
+      "locator": "//span[contains(@class, 'in-profile')]",
+      "search_cond": "xpath"
+    },
+    "lnk_chosen_home": {
+      "name": "Property details - chosen home - on Page",
+      "locator": "//div[contains(@class, 'propertyInfo')]//div[contains(@class, 'ant-collapse-header')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Search And Filter": {
+    "lbl_0_property_details": {
+      "name": "0 Property Details",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'no-properties')]",
+      "search_cond": "xpath"
+    },
+    "btn_filter_icon_search_results": {
+      "name": "Filter Icon on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//i[contains(@class, 'icon-filter')]",
+      "search_cond": "xpath"
+    },
+    "btn_filter_icon": {
+      "name": "Filter Icon",
+      "comment": "add_comment",
+      "locator": "//i[contains(@class, 'icon-filter')]",
+      "search_cond": "xpath"
+    },
+    "list_area_list_dropdown_result_page": {
+      "name": "Area list from dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'ant-select-dropdown')]//li[not(text()='{}')]",
+      "locale_path": "Base Page Search And Filter.all",
+      "search_cond": "xpath"
+    },
+    "area_dropdown_result_page": {
+      "name": "Dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'select-selection_')]",
+      "search_cond": "xpath"
+    },
+    "area_arrow_dropdown_result_page": {
+      "name": "Area arrow from dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//span[contains(@class, 'select-arrow')]",
+      "search_cond": "xpath"
+    },
+    "area_input_dropdown_result_page": {
+      "name": "Area input from dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//input[contains(@class, 'ant-select-search__field')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Financing Page": {
+    "lbl_financing_page": {
+      "name": "Financing Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-hero-title') and contains(text(), '{}')]",
+      "locale_path": "Financing Page.financing_banner",
+      "search_cond": "xpath"
+    },
+    "btn_start": {
+      "name": "Start button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'step-financing/bank-loan')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Bank Loan Page": {
+    "lbl_bank_loan": {
+      "name": "Bank Loan Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-hero-title') and contains(text(), '{}')]",
+      "locale_path": "Bank Loan Page.bank_loan_banner",
+      "search_cond": "xpath"
+    },
+    "lbl_bank_loan_amount": {
+      "name": "Bank Loan amount price",
+      "locator": "//div[contains(@class, 'uil-card')]//div[contains(@class, 'loan-amount number')]",
+      "search_cond": "xpath"
+    },
+    "lbl_down_payment_value": {
+      "name": "Down Payment",
+      "locator": "//input[contains(@class, 'qa-input')]",
+      "search_cond": "xpath"
+    },
+    "lbl_property_type": {
+      "name": "Property type {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-type') and contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_property_size": {
+      "name": "Property size {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-size') and contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "txt_property_price": {
+      "name": "Property price {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-price') and contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_property_rooms": {
+      "name": "Property rooms {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-bedrooms') and contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_property_bathrooms": {
+      "name": "Property bathrooms {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property-bathrooms') and contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "list_bank_names": {
+      "name": "List of Bank names",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'loan-panel')]//div[contains(@class, '__name')]",
+      "search_cond": "xpath"
+    },
+    "lbl_bank_item": {
+      "name": "Bank item {}",
+      "locator": "//div[contains(@class, 'loan-panel')]//div[contains(@class, '__name')][contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "btn_required_documents": {
+      "name": "Required documents button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'required-documents')]",
+      "search_cond": "xpath"
+    },
+    "btn_required_documents_close": {
+      "name": "Close button for required documents pop up",
+      "comment": "add_comment",
+      "locator": "//button[contains(@aria-label, 'Close')]",
+      "search_cond": "xpath"
+    },
+    "lbl_interest_rate": {
+      "name": "Interest Rate of home",
+      "locator": "//div[contains(@class, 'loan-interest')]",
+      "search_cond": "xpath"
+    },
+    "lbl_down_payment_percentage": {
+      "name": "Down Payment Percentage",
+      "locator": "//div[contains(@class, 'inversed')]//span[contains(@class, 'label-value qa-range-slider')]",
+      "search_cond": "xpath"
+    },
+    "lbl_calculated_loan_amount": {
+      "name": "Calculated Loan Amount",
+      "locator": "//div[contains(@class, 'loan-value')]//div[contains(@class, 'number')]",
+      "search_cond": "xpath"
+    },
+    "lbl_tenure_years_bank": {
+      "name": "Tenure Years for credit",
+      "locator": "//div[contains(@class, 'uil-card')]//span[contains(@class, '__value')]",
+      "search_cond": "xpath"
+    },
+    "lbl_tenure_years_property": {
+      "name": "Tenure Years for credit for property",
+      "locator": "//div[contains(@class, 'default-appearance')]//span[contains(@class, 'slider-value')]",
+      "search_cond": "xpath"
+    },
+    "lbl_monthly_payment_bank": {
+      "name": "Monthly payment of home for Bank Loan page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'loan-monthly')]",
+      "search_cond": "xpath"
+    },
+    "lbl_pop_up_required_documents": {
+      "name": "Required documents pop up",
+      "locator": "//div[contains(@id, 'rcDialog')]",
+      "search_cond": "xpath"
+    },
+    "btn_tell_me": {
+      "name": "Tell Me About Deed Transfers button",
+      "locator": "//button[contains(@class, 'go-to-deed')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Saved Properties Page": {
+    "lbl_saved_properties": {
+      "name": "Saved Properties Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@style, 'saved-homes/banner')]",
+      "search_cond": "xpath"
+    },
+    "lbl_heart_saved": {
+      "name": "Heart on saved property {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'property')][.//div[contains(@class, 'price number')][contains(., '{}')]]//div[contains(@class, 'save')]",
+      "search_cond": "xpath"
+    },
+    "lbl_count_props": {
+      "name": "Count of properties",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'saved-props-count')]",
+      "search_cond": "xpath"
+    },
+    "btn_search_a_home": {
+      "name": "Search a home button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'continue')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Apply Loan Page": {
+    "lbl_apply_loan": {
+      "name": "Apply Loan Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-hero-title') and contains(text(), '{}')]",
+      "locale_path": "Apply Loan Page.apply_loan_banner",
+      "search_cond": "xpath"
+    },
+    "btn_submit": {
+      "name": "Submit button",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'submit-button')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Deed Transfer Page": {
+    "lbl_deed_transfer": {
+      "name": "Deed Transfer Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-hero-title') and contains(text(), '{}')]",
+      "locale_path": "Deed Transfer Page.deed_transfer_banner",
+      "search_cond": "xpath"
+    },
+    "btn_view": {
+      "name": "Deed Transfer Page",
+      "comment": "add_comment",
+      "locator": "//button[contains(@class, 'deed-transfer-property')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Building Details Page": {
+    "lbl_building_details": {
+      "name": "Building Details Page",
+      "locator": "//div[contains(@class, 'building-details')]",
+      "search_cond": "xpath"
+    }
+  },
+    "Deed Transfer Property Registration Page": {
+    "lbl_deed_transfer_property_registration": {
+      "name": "Deed Transfer Property Registration Page",
+      "locator": "//div[contains(@class, 'deed-transfer-property')]",
+      "search_cond": "xpath"
+    },
+    "btn_continue_step": {
+      "name": "Continue button",
+      "locator": "//button[contains(@class, 'continue')]",
+      "search_cond": "xpath"
+    },
+    "lbl_registration_pop_up": {
+      "name": "Label registration pop up",
+      "locator": "//div[contains(@class, 'modal')]//div[contains(@id, 'Title')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_adm_registration": {
+      "name": "Close ADM registration pop up",
+      "locator": "//div[contains(@class, 'adm')]//span[contains(@class, 'close')]",
+      "search_cond": "xpath"
+    },
+    "btn_no_adm_registration": {
+      "name": "No button ADM registration pop up",
+      "locator": "//button[contains(@class, 'cancel')]",
+      "search_cond": "xpath"
+    },
+    "btn_yes_adm_registration": {
+      "name": "Yes button ADM registration pop up",
+      "locator": "//button[contains(@class, 'success')]",
+      "search_cond": "xpath"
+    },
+    "lbl_success_modal_pop_up": {
+      "name": "Success pop up on ADM registration pop up",
+      "locator": "//div[contains(@class, 'successModal')]",
+      "search_cond": "xpath"
+    },
+    "btn_ok_success_pop_up": {
+      "name": "Ok button on Success pop up on ADM registration pop up",
+      "locator": "//button[contains(@class, 'success')]//div[contains(text(), '{}')]",
+      "locale_path": "Deed Transfer Property Registration Page.registration_ok",
+      "search_cond": "xpath"
+    },
+    "lbl_in_progress_message": {
+      "name": "In progress message",
+      "locator": "//h5[contains(text(), '{}')]",
+      "locale_path": "Deed Transfer Property Registration Page.registration_in_progress",
+      "search_cond": "xpath"
+    },
+    "lbl_fee_payment": {
+      "name": "Fee payment data",
+      "locator": "//div[contains(@class, 'step')]//div[contains(@class, 'number')]",
+      "search_cond": "xpath"
+    },
+    "lbl_fee_payment_steps": {
+      "name": "Fee payment steps",
+      "locator": "//button[contains(@class, 'expanded-stepper')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Get Utilities Page": {
+    "lbl_get_utilities_page": {
+      "name": "Get Utilities Page",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Get Utilities Page.get_utilities",
+      "search_cond": "xpath"
+    },
+    "btn_view_water": {
+      "name": "View button for Water and Electricity step",
+      "locator": "//div[contains(@class, 'water')]//button[contains(@class, 'step')]",
+      "search_cond": "xpath"
+    },
+    "btn_apply_etisalat": {
+      "name": "Apply button for Etisalat",
+      "locator": "//button[contains(@class, 'etisalat')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Water Electricity Page": {
+    "lbl_water_electricity": {
+      "name": "Water Electricity Page",
+      "locator": "//a[contains(@href, 'water')]",
+      "search_cond": "xpath"
+    },
+    "btn_continue": {
+      "name": "Continue button",
+      "locator": "//button[contains(@class, 'water')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Etisalat Page": {
+    "lbl_etisalat_page": {
+      "name": "Etisalat Page",
+      "locator": "//a[contains(@href, 'etisalat')]",
+      "search_cond": "xpath"
+    },
+    "lst_view_details": {
+      "name": "List of view details buttons",
+      "locator": "//button[contains(@class, 'view-details')]",
+      "search_cond": "xpath"
+    },
+    "lst_packages_details": {
+      "name": "List of packages details",
+      "locator": "//div[contains(@class, 'uil-card-template')]",
+      "search_cond": "xpath"
+    },
+    "lbl_package_details": {
+      "name": "Package details label",
+      "locator": "//div[contains(@id, 'rcDialogTitle1')]",
+      "search_cond": "xpath"
+    },
+    "lst_request_btn": {
+      "name": "List request button",
+      "locator": "//button[contains(@class, 'request')]",
+      "search_cond": "xpath"
+    },
+    "btn_request_pop_up": {
+      "name": "Request button for Pop up",
+      "locator": "//div[contains(@class, 'ant-modal-body')]//button[contains(@class, 'request')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_view_details": {
+      "name": "Close view details pop up",
+      "locator": "//button[contains(@aria-label, 'Close')]",
+      "search_cond": "xpath"
+    },
+    "btn_submit": {
+      "name": "Submit button",
+      "locator": "//button[contains(@class, 'continue')]",
+      "search_cond": "xpath"
+    },
+    "btn_ok_etisalat_confirmation": {
+      "name": "Button Ok",
+      "locator": "//button[contains(@class, 'succes')]",
+      "search_cond": "xpath"
+    },
+    "btn_cancel_view_details": {
+      "name": "Cancel button for  view details pop up",
+      "locator": "//button[contains(@class, 'cancel')]",
+      "search_cond": "xpath"
+    },
+    "btn_ok_error_message": {
+      "name": "Ok button for error message about selecting packages",
+      "locator": "//div[contains(@class, 'modal-content')]//button[contains(@class, 'button-success')]",
+      "search_cond": "xpath"
+    },
+    "lbl_error_message_about_package": {
+      "name": "Error pop up about selecting packages",
+      "locator": "//div[contains(@class, 'content_center')]//div[contains(text(), 'registered')]",
+      "search_cond": "xpath"
+    },
+    "btn_close_error_message_package": {
+      "name": "Close button about selecting packages",
+      "locator": "//div[contains(@class, 'modal')][.//div[contains(@class, 'content_center')]]//span[contains(@class, 'close')]",
+      "search_cond": "xpath"
+    },
+    "btn_load_more": {
+      "name": "Load more button",
+      "locator": "//div[contains(@class, 'uil-button__content')]//i[contains(@class, 'sync')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Get Insurance Page": {
+    "lbl_get_insurance": {
+      "name": "Get Insurance Page",
+      "locator": "//div[contains(text(), '{}')]",
+      "locale_path": "Get Insurance Page.get_insurance",
+      "search_cond": "xpath"
+    },
+    "btn_find_movers": {
+      "name": "Find movers button",
+      "locator": "//button[contains(@class, 'go-to-movers')]",
+      "search_cond": "xpath"
+    },
+    "btn_back_to_home": {
+      "name": "Back To Home button",
+      "locator": "//button[contains(@class, 'finish')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Search For Offer Page": {
+    "lbl_search_for_offer": {
+      "name": "Search For Offer Page",
+      "locator": "//div[contains(@style, 'search-for-insurance')]",
+      "search_cond": "xpath"
+    },
+    "list_insurance": {
+      "name": "Insurance list",
+      "locator": "//div[contains(@class, 'providers-list')]//div[contains(@aria-expanded, 'false')]//div[contains(text(), '')]",
+      "search_cond": "xpath"
+    },
+    "lbl_your_insurance_item": {
+      "name": "Insurance item {}",
+      "locator": "//div[contains(@class, 'providers-list')]//div[contains(@aria-expanded, 'false')]//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    },
+    "lbl_your_insurance_opened": {
+      "name": "Insurance item opened {}",
+      "locator": "//div[contains(@class, 'providers-list')]//div[contains(@aria-expanded, 'true')]//div[contains(text(), '{}')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Move New Home Page": {
+    "lbl_move_new_home": {
+      "name": "Move New Home Page",
+      "locator": "//div[contains(@style, 'move-new-home')]",
+      "search_cond": "xpath"
+    },
+    "btn_finish_journey": {
+      "name": "Move new home button on Move New Home Page",
+      "locator": "//button[contains(@class, 'finish-button')]",
+      "search_cond": "xpath"
+    }
+  },
+  "Smart Pass Page": {
+    "lbl_smart_pass_page": {
+      "name": "Smart Pass Page",
+      "locator": "//a[contains(@id, 'SmartPassTitle')]",
+      "search_cond": "xpath"
+    },
+    "txb_user_name": {
+      "name": "User name field",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'form-value')]//input[contains(@class, 'ng-pristine') and contains(@name, 'username')]",
+      "search_cond": "xpath"
+    },
+    "txb_user_password": {
+      "name": "User password field",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'form-value')]//input[contains(@class, 'ng-pristine') and contains(@name, 'password')]",
+      "search_cond": "xpath"
+    },
+    "btn_login": {
+      "name": "Login button",
+      "comment": "add_comment",
+      "locator": "//input[contains(@value, 'Log')]",
+      "search_cond": "xpath"
+    }
+  },
+  "New": {
+    "btn_tell_me": {
+      "name": "Tell Me About Deed Transfers button",
+      "locator": "//button[contains(@class, 'booked-button')]//div[contains(text(), 'Tell')]",
+      "search_cond": "xpath"
+    },
+    "btn_start": {
+      "name": "Start button",
+      "locator": "//button[contains(@class, 'step-deed')]",
+      "search_cond": "xpath"
+    },
+    "btn_confirm_property": {
+      "name": "Confirm property button",
+      "locator": "//button[contains(@class, 'confirm')]",
+      "search_cond": "xpath"
+    },
+    "btn_submit_to_seller": {
+      "name": "Submit to seller button",
+      "locator": "//button[contains(@class, 'appearance')]//div[contains(text(), 'SUBMIT')]",
+      "search_cond": "xpath"
+    }
+  }
+}
